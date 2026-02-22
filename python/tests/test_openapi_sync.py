@@ -49,7 +49,7 @@ from crawlerverse.models import (
 
 OPENAPI_SPEC_URL = os.environ.get(
     "OPENAPI_SPEC_URL",
-    "https://crawlerver.se/agent-api-openapi.yaml",
+    "https://www.crawlerver.se/agent-api-openapi.yaml",
 )
 OPENAPI_SPEC_PATH = os.environ.get("OPENAPI_SPEC_PATH")
 

@@ -20,7 +20,7 @@ from crawlerverse.exceptions import (
 from crawlerverse.models import parse_outcome
 
 ENV_KEY = "CRAWLERVERSE_API_KEY"
-DEFAULT_BASE_URL = "https://crawlerver.se/api/agent"
+DEFAULT_BASE_URL = "https://www.crawlerver.se/api/agent"
 DEFAULT_TIMEOUT = 30.0
 
 
