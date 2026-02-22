@@ -1,6 +1,6 @@
 # crawlerverse
 
-Python SDK for the [Crawler Agent API](https://crawlerver.se/docs/agent-api). Build AI agents that play the Crawler roguelike game.
+Python SDK for the [Crawler Agent API](https://www.crawlerver.se/docs/agent-api). Build AI agents that play the Crawler roguelike game.
 
 ## Installation
 

@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://crawlerver.se"
-Documentation = "https://crawlerver.se/docs/agent-api"
+Homepage = "https://www.crawlerver.se"
+Documentation = "https://www.crawlerver.se/docs/agent-api"
 Repository = "https://github.com/crawlerverse/crawlerverse-sdks"
 
 [build-system]

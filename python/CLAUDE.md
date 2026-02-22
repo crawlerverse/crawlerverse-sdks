@@ -42,7 +42,7 @@ python/
 - **CamelCase aliasing**: All Pydantic models use `alias_generator=to_camel, populate_by_name=True` for camelCase API ↔ snake_case Python.
 - **Action serialization**: `_ActionBase` defaults `exclude_none=True` so optional fields aren't sent.
 - **Discriminated unions**: `Outcome` uses `Field(discriminator="status")` for `InProgressOutcome | CompletedOutcome | AbandonedOutcome`.
-- **OpenAPI drift tests**: `tests/test_openapi_sync.py` fetches the spec from `https://crawlerver.se/agent-api-openapi.yaml` and validates all models. Override with `OPENAPI_SPEC_URL` or `OPENAPI_SPEC_PATH` env vars.
+- **OpenAPI drift tests**: `tests/test_openapi_sync.py` fetches the spec from `https://www.crawlerver.se/agent-api-openapi.yaml` and validates all models. Override with `OPENAPI_SPEC_URL` or `OPENAPI_SPEC_PATH` env vars.
 
 ## Releasing to PyPI
 

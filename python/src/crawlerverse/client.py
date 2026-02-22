@@ -82,7 +82,9 @@ class CrawlerClient:
         resolved_key = resolve_api_key(api_key)
         self._base_url = base_url.rstrip("/")
         self._http = httpx.Client(
-            headers=build_headers(resolved_key), timeout=timeout
+            headers=build_headers(resolved_key),
+            timeout=timeout,
+            follow_redirects=True,
         )
         self.games = _GamesResource(self)
 
