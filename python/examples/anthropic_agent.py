@@ -218,7 +218,7 @@ def main():
     agent = make_agent(model=model)
 
     base_url = os.environ.get(
-        "CRAWLERVERSE_BASE_URL", "http://localhost:3000/api/agent"
+        "CRAWLERVERSE_BASE_URL", "https://www.crawlerver.se/api/agent"
     )
 
     with CrawlerClient(base_url=base_url) as client:
