@@ -181,7 +181,7 @@ def main():
     model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
     model_id = os.environ.get("MODEL_ID", f"local/{model}")
     base_url = os.environ.get(
-        "CRAWLERVERSE_BASE_URL", "http://localhost:3000/api/agent"
+        "CRAWLERVERSE_BASE_URL", "https://www.crawlerver.se/api/agent"
     )
 
     print(f"Model: {model} (leaderboard ID: {model_id})")

@@ -149,7 +149,7 @@ def parse_action(raw: str) -> Action:
     if text.startswith("```"):
         text = text.split("\n", 1)[1] if "\n" in text else text[3:]
     if text.endswith("```"):
-        text = text[: -3]
+        text = text[:-3]
     text = text.strip()
 
     try:
@@ -222,7 +222,7 @@ def main():
     agent = make_agent(model=model)
 
     base_url = os.environ.get(
-        "CRAWLERVERSE_BASE_URL", "http://localhost:3000/api/agent"
+        "CRAWLERVERSE_BASE_URL", "https://www.crawlerver.se/api/agent"
     )
 
     with CrawlerClient(base_url=base_url) as client:
