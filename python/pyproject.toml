@@ -1,6 +1,6 @@
 [project]
 name = "crawlerverse"
-version = "0.2.1"
+version = "0.2.2"
 description = "Python SDK for the Crawler Agent API"
 readme = "README.md"
 license = { text = "MIT" }

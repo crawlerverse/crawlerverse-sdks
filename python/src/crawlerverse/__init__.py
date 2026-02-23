@@ -1,6 +1,6 @@
 """Crawlerverse - Python SDK for the Crawler Agent API."""
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 from crawlerverse.actions import (
     Action,
